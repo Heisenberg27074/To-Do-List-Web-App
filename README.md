@@ -6,3 +6,4 @@ I used MongoDB as databse.
 To execute the WebApp just go into the folder directory and do 
 #### npm start
 
+![Screenshot 2021-04-01 224057](https://user-images.githubusercontent.com/65938639/113330113-053aea00-933c-11eb-8d0f-edc38a15cdd7.jpg)
