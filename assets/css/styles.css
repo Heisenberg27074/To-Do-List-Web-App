@@ -1,0 +1,105 @@
+body{
+    text-align: center;
+    /* background-image:linear-gradient(100deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.5) 100%); */
+    background-color: black;
+    background-image: url('../images/image1.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+ul{
+    list-style-type: none;
+}
+
+.header{
+    font-size:2rem;
+    color: crimson;
+    font-family:fantasy;
+}
+#container{
+   position:relative;
+   left:17.5%;
+   top:5%;
+    width:63%;
+    border:white 2px solid;
+    box-shadow:5px 5px 5px 5px rgb(0, 0, 0) ;
+    background-color:white;
+    border-radius: 5%;
+}
+
+.description{
+    border: 2px solid rgb(158, 158, 158);
+    width:95%;
+    display: inline-block;
+    margin-bottom:50px;
+}
+.description input{
+    width:95%;
+    border: 0px;
+    
+}
+/* .description input:focus{
+    border:0px;
+    outline:none;
+} */
+
+.two-items{
+    display: inline-flex;
+    border: 2px solid rgb(158, 158, 158);
+    width:95%;
+    padding: 5%;
+    margin-top: -5%;
+}
+.label-align{
+    display:flex;
+    margin-left: 3%;
+    align-items: flex-start;
+}
+.b0px{
+    border:0px;
+}
+.bbtm{
+    border-bottom: 1px solid gray;
+}
+.no-outline:focus{
+    outline:none;
+}
+#btn{
+    background-color: red;
+    font-size:x-large;
+    color: wheat;
+    transition: all 0.5s ease-in-out;
+    font-family:monospace;
+}
+#btn:hover{
+    color: rgb(0, 0, 0);
+    background-color:white;
+}
+
+.ptr{
+    cursor: pointer;
+}
+.details{
+    display:inline-block;
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(158, 158, 158);
+    width:90%;
+}
+.bold-dark{
+    font-weight: bold;
+    color: black;
+}
+.delete-btn{
+    color: red;
+    
+    /* left: 80%; */
+    font-size: x-large;
+    transition: all 0.5s ease-in-out;
+}
+.delete-btn:hover{
+    color: crimson;
+}
+.dis-block{
+    display:block;
+}
