@@ -32,7 +32,7 @@ app.get('/', function (req, res) {
 });
 
 app.post('/create-task',function (req, res) {
-    console.log(req.body);
+    // console.log(req.body);
     Task.create({
         description: req.body.description,
         date: req.body.date,
@@ -40,7 +40,7 @@ app.post('/create-task',function (req, res) {
 
     }, (err, newTask) => {
         if (err) { console.log('There is some issue in creating new Task', err); return; }
-        console.log('*******', newTask);
+        // console.log('*******', newTask);
         return res.redirect('back');
     
     });
